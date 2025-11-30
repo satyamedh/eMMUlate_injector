@@ -1,0 +1,18 @@
+<!doctype html><html class="no-js" lang=""><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>eMMUlate Injector</title><link rel="stylesheet" href="css/style.css"><meta name="description" content=""><meta property="og:title" content=""><meta property="og:type" content=""><meta property="og:url" content=""><meta property="og:image" content=""><meta property="og:image:alt" content=""><link rel="manifest" href="site.webmanifest"><meta name="theme-color" content="#fafafa"><script src="https://cdn.tailwindcss.com?plugins=typography"></script><script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script><style>/* Custom scrollbar for dark mode if needed, or just standard */
+    .prose-invert {
+      --tw-prose-body: #d1d5db;
+      --tw-prose-headings: #fff;
+      --tw-prose-links: #60a5fa;
+      --tw-prose-bold: #fff;
+      --tw-prose-counters: #9ca3af;
+      --tw-prose-bullets: #4b5563;
+      --tw-prose-hr: #374151;
+      --tw-prose-quotes: #f3f4f6;
+      --tw-prose-quote-borders: #374151;
+      --tw-prose-captions: #9ca3af;
+      --tw-prose-code: #fff;
+      --tw-prose-pre-code: #d1d5db;
+      --tw-prose-pre-bg: #1f2937;
+      --tw-prose-th-borders: #374151;
+      --tw-prose-td-borders: #374151;
+    }</style><script defer="defer" src="./js/app.js"></script></head><body class="bg-gray-900 min-h-screen flex flex-col items-center justify-center p-4 text-gray-100"><div class="bg-gray-800 shadow-lg rounded-lg p-8 max-w-2xl w-full border border-gray-700"><div id="appMode" class="hidden"><h1 class="text-2xl font-bold mb-6 text-center text-white">eMMUlate Injector</h1><div class="mb-6"><label class="block text-gray-300 text-sm font-bold mb-2" for="fileInput">Select Firmware File (.bin, .tns)</label><div class="flex items-center justify-center w-full"><label for="fileInput" class="flex flex-col items-center justify-center w-full h-32 border-2 border-gray-600 border-dashed rounded-lg cursor-pointer bg-gray-700 hover:bg-gray-600 transition-colors"><div class="flex flex-col items-center justify-center pt-5 pb-6"><svg class="w-8 h-8 mb-4 text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"/></svg><p class="mb-2 text-sm text-gray-400"><span class="font-semibold">Click to upload</span> or drag and drop</p><p class="text-xs text-gray-400">.BIN or .TNS files</p></div><input id="fileInput" type="file" class="hidden" accept=".bin,.tns"/></label></div><p id="fileNameDisplay" class="mt-2 text-sm text-gray-400 text-center hidden"></p></div><div class="flex justify-center mb-6"><button id="injectBtn" class="hidden bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition-colors">Inject Keys & Download</button></div><div class="mb-4"><h2 class="text-lg font-semibold mb-2 text-gray-300">URL Parameters</h2><div id="urlParamsContainer" class="bg-gray-900 p-4 rounded border border-gray-700 text-sm text-gray-300 min-h-[100px]"><p class="italic text-gray-500">No parameters found.</p></div></div></div><div id="tutorialMode" class="hidden"><div id="tutorialContent" class="prose prose-invert max-w-none"></div></div></div><script src="js/app.js"></script></body></html>
