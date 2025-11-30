@@ -17,7 +17,7 @@ This tool allows you to inject 3DES decryption keys into .tns files for use with
 3. Finally, start that kit. It will ask you to install the OS, and you should be able to drop the OS installation file used by your specific calculator model(.tcc2, .tco2, .tct2, etc).
 4. The installation will proceed and there will be a blank screen at times. After waiting for a while, click the reset button on the top left in case of a blank screen. After a couple resets, the installation should complete and you will have a working emulated CX II calculator with the OS installed!
 
-## Instructions on how to use eMMUlator can be found on the Github page [here](https://github.com/satyamedh/eMMUlator)
+## Instructions on how to use eMMUlator can be found on the Github page [here](https://github.com/satyamedh/eMMUlate)
 
 
 
